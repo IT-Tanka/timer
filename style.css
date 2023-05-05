@@ -1,0 +1,41 @@
+main{
+  margin-top: 50px;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 15px auto;
+}
+h1{
+  margin:auto;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+ul+ul{
+  margin-top: 30px;
+}
+input{
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  
+}
+button{
+  width: 70px;
+  height: 40px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+label{
+  text-transform: uppercase;
+  font-size: 10px;
+  
+}
